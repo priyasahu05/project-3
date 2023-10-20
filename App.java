@@ -14,6 +14,8 @@ public class App {
             Likendin lik = new Likendin();
             NestedFrame nest = new NestedFrame();
             Likedinveiw lv = new Likedinveiw();
+            Imdb imdb = new Imdb();
+            Window win = new Window();
         //amzon testcase
            // ama.amazon();
            // ama.testCase01();
@@ -34,12 +36,14 @@ public class App {
     // lv.Likedinveiw();
     // lv.testCase01();
     // lv.endTest();
-      
-   
-    
+    // imdb.Imdb();
+    // imdb.testCase01();
+    //  imdb.endTest();
+    // win.Window();
+    // win.testCase01();
+    // win.endTest();
 
-        
-    }
+ }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
         new App().getGreeting();
